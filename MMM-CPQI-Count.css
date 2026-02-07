@@ -1,0 +1,75 @@
+/* MMM-CPQI-Count.css
+ * MagicMirror Module - Cisco Partner Quality Index Styling
+ *
+ * (c) Dr. Ralf Korell, 2025
+ * MIT License
+ *
+ * # Created: 20.12.2025, 19:15 - AP 1: Initiale Erstellung
+ * # Modified: 20.12.2025, 20:45 - AP 1: Logo neben Titel (Flex-Container)
+ */
+
+.cpqi-wrapper {
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Header: Titel links, Logo rechts */
+.cpqi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.cpqi-logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Titel */
+.cpqi-title {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #00bceb;
+}
+
+/* Türkise Linie unter dem Header */
+.cpqi-title-line {
+    height: 1px;
+    background-color: #00bceb;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+/* Datenbereich */
+.cpqi-content {
+    font-size: 1em;
+}
+
+/* Einzelne Zeile */
+.cpqi-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2px 0;
+}
+
+/* Name links */
+.cpqi-name {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+/* Anzahl rechts */
+.cpqi-count {
+    text-align: right;
+    min-width: 30px;
+}
+
+/* Fehler- und Ladeanzeige */
+.cpqi-error,
+.cpqi-loading {
+    font-style: italic;
+    padding: 5px 0;
+}
