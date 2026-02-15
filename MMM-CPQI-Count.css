@@ -6,23 +6,27 @@
  *
  * # Created: 20.12.2025, 19:15 - AP 1: Initiale Erstellung
  * # Modified: 20.12.2025, 20:45 - AP 1: Logo neben Titel (Flex-Container)
+ * # Modified: 2026-02-15 21:00 - Logo größer (120px), Zeilenabstand kompakter (1.2), Header flex-end
  */
 
 .cpqi-wrapper {
     text-align: left;
-    line-height: 1.6;
+    font-size: 0.8em;
+    width: 65%;
+    margin-left: auto;
+    line-height: 1.2;
 }
 
-/* Header: Titel links, Logo rechts */
+/* Header: Logo rechts */
 .cpqi-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
 /* Logo */
 .cpqi-logo {
-    height: 40px;
+    height: 120px;
     width: auto;
 }
 
